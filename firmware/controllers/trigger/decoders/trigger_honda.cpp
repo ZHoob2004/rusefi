@@ -8,7 +8,7 @@
 #include "trigger_honda.h"
 #include "trigger_universal.h"
 
-#define S24 (720.0f / 24 / 2)
+#define S24 (720.0f / 16 / 2)
 
 static float addAccordPair(TriggerWaveform *s, float sb, trigger_wheel_e const channelIndex) {
 	s->addEvent720(sb, channelIndex, TV_RISE);
